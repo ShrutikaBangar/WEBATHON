@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#pro{
+    padding: 40px;
+}
+.heading{
+   display:flex;
+   justify-content: center;
+   font-size: 1.9rem;
+}
+.products{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 40px;
+}
+.card{
+   padding: 20px;
+   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.9);
+   /* border-radius: 10%; */
+   flex-direction: column;
+   padding-left: 20px;
+   text-align: center;
+   height: 310px;
+}
+.card img{
+   
+   width: 250px;
+   height: 200px;
+   /* border-radius: 20%; */
+
+}
+.card button{
+   margin: 20px;
+   padding: 10px;
+   background: transparent;
+   border-radius: 10px;
+}
